@@ -111,6 +111,29 @@
         <trackTrending>false</trackTrending>
     </fields>
     <fields>
+        <fullName>Country__c</fullName>
+        <externalId>false</externalId>
+        <label>Country</label>
+        <length>10</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>DL__c</fullName>
+        <externalId>false</externalId>
+        <label>DL</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Email</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
         <fullName>Description</fullName>
         <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>true</trackHistory>
@@ -182,16 +205,6 @@
                     <fullName>Yes</fullName>
                     <default>false</default>
                     <label>Yes</label>
-                </value>
-                <value>
-                    <fullName>Perhaps</fullName>
-                    <default>false</default>
-                    <label>Perhaps</label>
-                </value>
-                <value>
-                    <fullName>Maybe</fullName>
-                    <default>false</default>
-                    <label>Maybe</label>
                 </value>
             </valueSetDefinition>
         </valueSet>
